@@ -11,11 +11,11 @@ struct ContentView: View {
     var body: some View {
         VStack {
             MapView()
-                .frame(height: 300)
                 .ignoresSafeArea(edges: .top)
+                .frame(height: 300)
             
             CircleImage()
-                .offset(x: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/, y: /*@START_MENU_TOKEN@*/-130.0/*@END_MENU_TOKEN@*/)
+                .offset(y: /*@START_MENU_TOKEN@*/-130.0/*@END_MENU_TOKEN@*/)
                 .padding(.bottom, -130)
             
             VStack(alignment: .leading) {
